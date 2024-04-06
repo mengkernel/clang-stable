@@ -25,7 +25,7 @@ clang --version
   ==> Download size SIZEMB
   ==> Compressed tar archive with zstd v1.5.5
   ==> Build LLVM Polly & LLD
-  ==> Build with ThinLTO + PGO + BOLT
+  ==> Build with ThinLTO + PGO
 ```
 # Build script
 
