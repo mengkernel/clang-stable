@@ -20,12 +20,12 @@ clang --version
 
 # Features
 ```
-  ==> Minimal LLVM 18.1.1-20240319 targeting 'AArch64' and 'X86'
+  ==> Minimal LLVM 18.1.3-20240407 targeting 'AArch64' and 'X86'
   ==> Stripped binaries
-  ==> Download size 345MB
+  ==> Download size 205MB
   ==> Compressed tar archive with zstd v1.5.5
   ==> Build LLVM Polly & LLD
-  ==> Build with ThinLTO + PGO + BOLT
+  ==> Build with ThinLTO + PGO
 ```
 # Build script
 
