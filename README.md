@@ -22,7 +22,7 @@ clang --version
 ```
   ==> Minimal LLVM 18.1.7-20240611 targeting 'AArch64' and 'X86'
   ==> Stripped binaries
-  ==> Download size 0MB
+  ==> Download size 619MB
   ==> Compressed tar archive with zstd v1.5.5
   ==> Build LLVM Polly & LLD
   ==> Build with ThinLTO + PGO
