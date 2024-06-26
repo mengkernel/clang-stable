@@ -1,32 +1,28 @@
-# Cirrus CI Build Status
-[![Build Status](https://api.cirrus-ci.com/github/Diaz1401/clang-build.svg?branch=release)](https://cirrus-ci.com/Diaz1401/clang-build)
+# GitHub Action Build Status
+[![Release Clang Build](https://github.com/mengkernel/clang-build/actions/workflows/build.yml/badge.svg)](https://github.com/mengkernel/clang-build/actions/workflows/build.yml)
 
 # Download
-Check latest release [here](https://github.com/Diaz1401/clang-stable/releases/latest)
+Check latest release [here](https://github.com/mengkernel/clang-stable/releases/latest)
 
-# Simple installation method
+# Installation
 ```bash
-rm -rf ~/.kucing-clang
-mkdir ~/.kucing-clang
-tar xf clang.tar.zst -C ~/.kucing-clang
-if [ $USER == root ]; then
-  echo 'export PATH=/root/.kucing-clang/bin:$PATH' >> ~/.bashrc
-else
-  echo 'export PATH=/home/$USER/.kucing-clang/bin:$PATH' >> ~/.bashrc
-fi
-source ~/.bashrc
+rm -rf $HOME/.kucing-clang
+mkdir $HOME/.kucing-clang
+tar xf clang.tar.zst -C $HOME/.kucing-clang
+echo "export PATH=$HOME/.kucing-clang/bin:$PATH" >> ~/.bashrc
+source $HOME/.bashrc
 clang --version
 ```
 
 # Features
 ```
-  ==> Minimal LLVM 18.1.7-20240611 targeting 'AArch64' and 'X86'
+  ==> Minimal LLVM 18.1.8-20240626 targeting 'AArch64' and 'X86'
   ==> Stripped binaries
-  ==> Download size 619MB
-  ==> Compressed tar archive with zstd v1.5.5
+  ==> Download size 206MB
+  ==> Compressed tar archive with zstd v1.5.6
   ==> Build LLVM Polly & LLD
   ==> Build with ThinLTO + PGO
 ```
 # Build script
 
-  Visit https://github.com/Diaz1401/clang-build
+  Visit https://github.com/mengkernel/clang-build
